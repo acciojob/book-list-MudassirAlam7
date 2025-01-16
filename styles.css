@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+h1{
+	text-align : center;
+}
+.form-group form{
+	display : flex;
+	gap : 10px;
+	flex-wrap : wrap;
+}
+.form-group input{
+	flex : 1;
+	padding : 10px; 
+	
+	
+}
+
