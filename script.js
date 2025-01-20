@@ -19,7 +19,7 @@ btn.addEventListener('click', function (e) {
      author.value = ""
 	title.value = ""
 	isbn.value = ""
-	let removeBtn = document.querySelector('.delete')
+	let removeBtn = newRow.querySelector('.delete')
 	removeBtn.addEventListener('click', function () {
 		newRow.remove()
 		
