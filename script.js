@@ -19,7 +19,7 @@ btn.addEventListener('click', function (e) {
 		newRow.innerHTML = `<td>${Tvalue}</td>
 						   <td>${Avalue}</td>
 						   <td>${Ivalue}</td>
-						   <button class = "delete">X</button>`
+						   <td><button class = "delete">X</button></td>`
 	tablebody.append(newRow)
      author.value = ""
 	title.value = ""
